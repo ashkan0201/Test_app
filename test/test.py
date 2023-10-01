@@ -6,5 +6,5 @@ path = os.path.join(os.getcwd(), "src")
 sys.path.append(path)
 
 from for_testing import find
-
-assert find("code-bezan.ir","code") == False
+def test_find():
+    assert find("code-bezan.ir","code") == True
