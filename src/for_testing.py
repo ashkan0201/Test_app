@@ -35,6 +35,6 @@ def find(str1, str2):
         "i wana 2 string"
     else:
         if str2 in findall1:
-            print(True)
+            return(True)
         else:
-            print(False)
+            return(False)
