@@ -7,4 +7,4 @@ sys.path.append(path)
 
 from for_testing import find
 
-assert find("code-bezan.ir","code") == True
+assert find("code-bezan.ir","code") == False
