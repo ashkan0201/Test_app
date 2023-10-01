@@ -1,8 +1,11 @@
-import sys 
-from pathlib import Path
-sys.path.append(str(Path(__file__).parent.parent / 'src'))
+import os
+import sys
 
-from code import find
+path = os.path.join(os.getcwd(), "src")
+
+sys.path.append(path)
+
+from for_testing import find
 def test_find():
     assert find("code-bezan.ir","code") == True
 
